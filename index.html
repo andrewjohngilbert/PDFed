@@ -14,27 +14,26 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="This research introduces a novel approach integrating 3D features and depth maps alongside RGB features to enhance action recognition accuracy. Our method involves processing estimated depth maps through a separate branch from the RGB feature encoder and fusing the features to understand the scene and actions comprehensively. Using the Side4Video framework and VideoMamba, which employ CLIP and VisionMamba for spatial feature extraction, our approach outperformed our implementation of the Side4Video network on the Something-Something V2 dataset.">
-  <meta property="og:title" content="DEAR: Depth-Estimated Action Recognition"/>
-  <meta property="og:description" content="This research introduces a novel approach integrating 3D features and depth maps alongside RGB features to enhance action recognition accuracy. Our method involves processing estimated depth maps through a separate branch from the RGB feature encoder and fusing the features to understand the scene and actions comprehensively. Using the Side4Video framework and VideoMamba, which employ CLIP and VisionMamba for spatial feature extraction, our approach outperformed our implementation of the Side4Video network on the Something-Something V2 dataset."/>
-  <meta property="og:url" content="https://andrewjohngilbert.github.io/dear/"/>
+  <meta name="description" content="We present PDFed, a decentralized, aggregator-free, and asynchronous federated learning protocol for training image diffusion models using a public blockchain. In general, diffusion models are prone to memorization of training data, raising privacy and ethical concerns (e.g., regurgitation of private training data in generated images)."/>
+  <meta property="og:description" content="We present PDFed, a decentralized, aggregator-free, and asynchronous federated learning protocol for training image diffusion models using a public blockchain. In general, diffusion models are prone to memorization of training data, raising privacy and ethical concerns (e.g., regurgitation of private training data in generated images)."/>
+  <meta property="og:url" content="https://andrewjohngilbert.github.io/PDFed/"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="assets/dear_Teaser.png" />
+  <meta property="og:image" content="assets/PDFed_Teaser.png" />
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
 
 
-  <meta name="twitter:title" content="DEAR: Depth-Estimated Action Recognition">
-  <meta name="twitter:description" content="This research introduces a novel approach integrating 3D features and depth maps alongside RGB features to enhance action recognition accuracy. Our method involves processing estimated depth maps through a separate branch from the RGB feature encoder and fusing the features to understand the scene and actions comprehensively. Using the Side4Video framework and VideoMamba, which employ CLIP and VisionMamba for spatial feature extraction, our approach outperformed our implementation of the Side4Video network on the Something-Something V2 dataset">
+  <meta name="twitter:title" content="PDFed: Privacy-Preserving and Decentralized Asynchronous Federated Learning for Diffusion Models">
+  <meta name="twitter:description" content="We present PDFed, a decentralized, aggregator-free, and asynchronous federated learning protocol for training image diffusion models using a public blockchain. In general, diffusion models are prone to memorization of training data, raising privacy and ethical concerns (e.g., regurgitation of private training data in generated images).">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="asserts/dear_Teaser.png">
+  <meta name="twitter:image" content="asserts/PDFed_Teaser.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="Machine Learning, Depth, Video Understanding,andrew Gilbert, Sadegh Rahmani,">
+  <meta name="keywords" content="Federated Learning, Diffusion Models, Blockchain, Data Privacy,Decentralized AI, Privacy-preserving Machine Learning,Andrew Gilbert, Kar Balan, John Collomosse">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>DEAR: Depth-Estimated Action Recognition</title>
+  <title>PDFed: Privacy-Preserving and Decentralized Asynchronous Federated Learning for Diffusion Models</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -62,30 +61,28 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">DEAR: Depth-Estimated Action Recognition</h1>
+            <h1 class="title is-1 publication-title">PDFed: Privacy-Preserving and Decentralized Asynchronous Federated Learning for Diffusion Models</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://www.linkedin.com/in/sadegh-rahmani" target="_blank">Sadegh Rahmani</a>[1]<sup></sup>,</span>
+                <a href="https://www.linkedin.com/in/will-binning-66a9b7221/" target="_blank">Kar Balan</a>[1],</span> 
                 <span class="author-block">
-                  <a href="F" target="_blank">Filip Rybansky</a>[2]<sup></sup>,</span>
-                  <span class="author-block">
-                    <a href="https://www.ncl.ac.uk/medical-sciences/people/profile/quocvuong.html" target="_blank">Quoc Vuong</a>[2]<sup></sup>,</span>
-                <span class="author-block">
-                  <a href="https://www.surrey.ac.uk/people/frank-guerin" target="_blank">Frank Guerin</a>[1]<sup></sup>,</span>
-                  <span class="author-block">
-                    <a href="https://andrewjohngilbert.github.io/" target="_blank">Andrew Gilbert</a>[1]<sup></sup>,</span>
-                  </div>
+                  <a href="https://andrewjohngilbert.github.io/" target="_blank">Andrew Gilbert</a>[1],</span>
+                </div>                              
+                <a href="http://personal.ee.surrey.ac.uk/Personal/J.Collomosse/" target="_blank">John Collomosse</a>[1,2]
+              </span>
+              </div>
+                
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">[1] Unviersity of Surrey [2] Unviersityof Newcastle<br> <a href="https://eccv2024.ecva.net/" target="_blank">The European Conference of Computer Vision 2024</a> <a href="https://sites.google.com/view/hcvworkshop2024" target="_blank">Human-inspired Computer Vision Workshop</a>              
+                    <span class="author-block">Unviersity of Surrey [1], Adobe Research [2]<br> <a href="https://www.cvmp-conference.org/2024/" target="_blank">Conference on Visual Media Production 2024</a>             
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://andrewjohngilbert.github.io/dear/assets/dear_paper.pdf" target="_blank"
+                        <a href="https://andrewjohngilbert.github.io/PDFed/assets/PDFed_CVMPPaper.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -94,7 +91,8 @@
                       </a>
                     </span>
 
-                    <!-- Supplementary PDF link -->
+                    <!-- Poster PDF link -->
+                     <!--
                    <span class="link-block">
                       <a href="assets/DEAR HCV Poster.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
@@ -104,8 +102,10 @@
                       <span>Poster</span>
                     </a>
                   </span>
+                -->
  
                   <!-- Github link -->
+                   <!--
                 <span class="link-block">
                     <a href="https://github.com/SadeghRahmaniB/DEAR" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
@@ -115,6 +115,7 @@
                     <span>Code</span>
                   </a>
                 </span>
+                -->
               
 
                 
@@ -127,13 +128,13 @@
 </section>
 
 
-<!-- Teaser video-->
+<!-- Teaser Image-->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="assets/dear_teaser.jpg">
+      <img src="assets/PDFed_TeaserWide.jpg.jpg">
       <h2 class="subtitle has-text-centered">
-        We perform supervised action recognition using a fusion of RGB and depth map frames. We used S4V network for processing RGB and the same network plus VideoMamba to extract depth features. Gated cross-attention (GCA) has been used for fusing modalities, while mean operation has been selected for fusing models' scores.
+        Data memorization presents a privacy challenge for the federated training of diffusion models, where private data can be regurgitated as training progresses. PDFed proposes a novel measure and mitigation of this behavior through an aggregator-free distributed training protocol using distributed ledger technology (DLT), or blockchain’ that we later show reduces data memorization.
       </h2>
     </div>
   </div>
@@ -148,7 +149,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Detecting actions in videos, particularly within cluttered scenes, poses significant challenges due to the limitations of 2D frame analysis from a camera perspective. Unlike human vision, which benefits from 3D understanding, recognizing actions in such environments can be difficult. This research introduces a novel approach integrating 3D features and depth maps alongside RGB features to enhance action recognition accuracy. Our method involves processing estimated depth maps through a separate branch from the RGB feature encoder and fusing the features to understand the scene and actions comprehensively. Using the Side4Video framework and VideoMamba, which employ CLIP and VisionMamba for spatial feature extraction, our approach outperformed our implementation of the Side4Video network on the Something-Something V2 dataset.
+            We present PDFed, a decentralized, aggregator-free, and asynchronous federated learning protocol for training image diffusion models using a public blockchain. In general, diffusion models are prone to memorization of training data, raising privacy and ethical concerns (e.g., regurgitation of private training data in generated images). Federated learning (FL) offers a partial solution via collaborative model training across distributed nodes that safeguard local data privacy. PDFed proposes a novel sample-based score that measures the novelty and quality of generated samples, incorporating these into a blockchain-based federated learning protocol that we show reduces private data memorization in the collaboratively trained model. In addition, PDFed enables asynchronous collaboration among participants with varying hardware capabilities, facilitating broader participation. The protocol records the provenance of AI models, improving transparency and auditability, while also considering automated incentive and reward mechanisms for participants. PDFed aims to empower artists and creators by protecting the privacy of creative works and enabling decentralized, peer-to-peer collaboration. The protocol positively impacts the creative economy by opening up novel revenue streams and fostering innovative ways for artists to benefit from their contributions to the AI space.
           </p>
         </div>
       </div>
@@ -157,10 +158,35 @@
 </section>
 <!-- End paper abstract -->
 
+<!-- PDFed_System.jpg -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="assets/PDFed_System.jpg">
+      <h2 class="subtitle has-text-centered">
+        System Architecture: client nodes, holding private training/validation data, interact with the federated learning task smart contract deployed on an Ethereum blockchain. The system design allows nodes to participate asynchronously, contributing to model evaluation and selection while retaining autonomy over training strategies and resource usage. The model weights are stored on peer-to-peer solution IPFS, accompanied by C2PA manifests. An example manifest is included on the left - a client node describes a model contribution within PDFed. Highlighted in yellow - C2PA supports specifying ingredient assets; in this case, the IPFS storage CID of the model chosen for further training is included. Green - this designation enables the client node to describe the submitted model’s training steps. Blue - using the crypto.addresses assertion, the client node specifies their blockchain wallet address, where payments may be sent as a reward for their contributions to model training.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End PDFed_System.jpg -->
+
+<!-- PDFed_ResultGraphs -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="assets/PDFed_ResultGraphs.jpg">
+      <h2 class="subtitle has-text-centered">
+        Left: All metrics reported on the baseline experiment evaluated along the training process on the entire CIFAR-10 dataset. Right: a) were trained with the objective 𝐿𝐹𝐿𝐷+𝐹𝐼𝐷 and b) were trained with the objective 𝐿𝑄−𝑁 , for experiments with 2 and 6 client nodes. The scores represented are Q-N score (green), AuthPct (red), FLD (pink), and 𝐶𝑇 (blue). Our proposed training method using 𝐿𝑄−𝑁 decreases memorization and our proposed Q-N metric is more sensitive to recognizing memorization behavior than all other metrics.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- PDFed_ResultGraphs -->
 
 
 <!-- Paper poster -->
-
+<!--
   <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
@@ -172,6 +198,7 @@
       </div>
     </div>
   </section>
+-->
 <!--End paper poster -->
 
 
@@ -179,10 +206,10 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@inproceedings{Rahmani:Dear:ECCVWS:2024,
-        AUTHOR = Rahmani, Sadegh and Rybansky, Filip and Vuong, Quoc and Guerin, Frank and Gilbert, Andrew ",
-        TITLE = "DEAR: Depth-Estimated Action Recognition",
-        BOOKTITLE = " The European Conference of Computer Vision 2024, Human-inspired Computer Vision Workshop",
+      <pre><code>@inproceedings{Balan:PDFed:CVMP:2024,
+        AUTHOR = Balan, Kar and Gilbert, Andrew and Collomosse, John",
+        TITLE = "PDFed: Privacy-Preserving and Decentralized Asynchronous Federated Learning for Diffusion Models",
+        BOOKTITLE = "Conference on Visual Media Production (CVMP'24)",
         YEAR = "2024",
         }</code></pre>
     </div>
